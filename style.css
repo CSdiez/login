@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    margin: 0;
+    background-image: url(assets/background.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.avatar{
+    position: relative;
+    font-size: 100px;
+    padding: 20px;
+    top: 65px;
+}
+
+.login{
+    background-color: rgba(223, 223, 223, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 20%;
+}
+
+.sign{
+    padding: 20% 0px 5% 0px;
+}
+
+h2{
+    margin: 0px;
+}
+
+label{
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico-avatar{
+    margin: 5%;
+    height: 40px;
+    background-image: url(assets/avatar2.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    text-align: center;
+    border-radius: 6px;
+    border: 0;
+}
+
+.ico-lock{
+    margin: 5%;
+    height: 40px;
+    background-image: url(assets/lock.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    text-align: center;
+    border-radius: 6px;
+    border: 0;
+}
+
+.option{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.btn{
+    border: 0;
+    margin-top: 4%;
+    padding: 10px 70px;
+    border-radius: 6px;
+    cursor: pointer ;
+}
+    .btn:hover{
+        background-color: cornflowerblue;
+    }
+
+.pad{
+    margin:15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+label{
+    margin: 0px;
+}
+
+p{
+font-size: .6em;
+}
+input{
+    height: 85%;
+}
+
+@media all and (max-width: 800px){
+
+    .login{
+        width: 70%;;
+    }
+}
